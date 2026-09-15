@@ -10,7 +10,8 @@
 
 6 / 2 # 3
 
-# ademas de las operaciones básicas, Python permite realizar operaciones más avanzadas, cómo la potenciación o la división decimal 
+# ademas de las operaciones básicas, Python permite realizar operaciones más avanzadas, cómo la potenciación, la división decimal
+# y operaciones con módulo (que indican el resto de una division entera)
 
 2 ** 3 # 8
 
@@ -19,6 +20,10 @@
 10 ** 6 # 1000000
 
 10 / 3 # 3.3333333333333335
+
+10 % 2 # 0, ya que 10 es divisible por 2
+
+11 % 2 # 1, porque 2 * 5 = 10 y 11-10 = 1
 
 # Los paréntesis permiten cambiar el orden de las operaciones.
 
@@ -30,6 +35,8 @@
 0.1 + 0.1 # 0.2
 
 2 * 0.5 # 1.0
+
+11 % 0.5 # 0.199999999999999
 
 # En algúnos casos, algunas operaciones pueden dar resultados raros. 
 # Esto es normal, tiene que ver con la forma en que los números decimales se representan en la memoria de computadora. 
