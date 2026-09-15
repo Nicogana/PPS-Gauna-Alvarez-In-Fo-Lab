@@ -17,7 +17,8 @@ elif edad > 65:
     print("Felicidades, ya podés votar y jubilarte")
     print("Andá a pasar tiempo con tu nieto")
 
-# A veces no conviene tener un else, porque puede llevar a resultados inválidos, ya que captura todo lo que no coincida con las condiciones evaludas por el if y el elif
+# A veces no conviene tener un else, porque puede llevar a resultados inválidos, 
+# ya que captura todo lo que no coincida con las condiciones evaludas por el if y el elif
 
 edad = 23
 
@@ -53,3 +54,30 @@ elif 'Carolina' in personas:
     print("Buenos dias Carolina") # este no
 elif 'Juan' in personas:
     print("Que gusto verte Juan") # Y este tampoco
+
+
+# Los ifs tambien puede operar sobre listas. 
+# Una de las funciones mas útiles es chequear si la lista está vacia
+
+cosas = ['Lapiz', 'Acuamarina', 'Moto', 'Salamines']
+
+if cosas:
+    print("Lista no vacia")
+
+lista_vacia = []
+
+if lista_vacia:
+    print("esto no se cumple, la lista esta vacia")
+else:
+    print("La lista no tiene nada")
+
+# Podemos utilizarlos anidados dentro de bucles, para comparar los contenidos de multiples listas
+
+VIP_aeropuerto = ['Camila', 'Guada', 'Lucia']
+pasajeras = ['Camila', 'Guada', 'Lucia', 'Sofia']
+
+for pasajera in pasajeras:
+    if pasajera in VIP_aeropuerto:
+        print(f"{pasajera} puede pasar al VIP") # Entran todas, menos Sofia
+    else:
+        print(f"{pasajera} no está en la lista. Debe esperar el vuelo en la zona comun") 
