@@ -1,4 +1,5 @@
-# Otro tipo de variable muy importante en Python son los tipos de datos numéricos, que nos permiten realizar operaciones matemáticas y cálculos. 
+# Otro tipo de variable muy importante en Python son los tipos de datos numéricos, 
+# que nos permiten realizar operaciones matemáticas y cálculos. 
 # En Python, los números pueden ser enteros (int) o decimales (float).
 
 2+3 # 5
@@ -62,3 +63,19 @@ x,y,z = 1,2,3
 
 PI = 3.14159 
 CONSTANTE_DE_PLANCK = 6.62607015e-34
+
+# Por último, vale destacar que Python usan Declaracion Implícita de Tipos.
+
+# A diferencia de otros lenguajes, en los que tenés que indicar explicitamente el tipo de cada variable, 
+# Python asume el tipo de la variable en función de su contenido 
+
+# Por ejemplo, para declarar un entero en C/C++, se usa
+
+# int n = 1; 
+# n = 1 <-- Esto funciona en Python, pero da error en C/C++
+
+# Y para declarar un String
+
+# char[32] cad = "Aguante San Lorenzo"
+# cad = "Aguante San Lorenzo" <-- Lo mismo. Python interpreta el tipo en función del contenido, 
+#                                 cómo lo de adentro es una cadena, la variable es de tipo String
