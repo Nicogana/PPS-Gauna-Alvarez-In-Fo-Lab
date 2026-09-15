@@ -1,4 +1,4 @@
-# En cuanto a los apóstrofos, primero se observa que si intenrcambiamos los ' entre "" se muestra el mensaje normal
+# En cuanto a los apóstrofos, primero se observa que si intercambiamos los ' entre "" se muestra el mensaje normal
 message = "One of Python's strengths is its diverse community."
 print(message)
 
