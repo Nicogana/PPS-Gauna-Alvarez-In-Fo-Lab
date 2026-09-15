@@ -39,13 +39,38 @@ print(profesores)
 profesores.append('Sandra')
 print(profesores)
 #Así podemos generar listas con [] y luego ir agregando con append
-
+#También se puede insertar en cualquier orden
+profesores.insert(1, 'Fernando')
+print(profesores)
+del profesores[1]
+print(profesores)
+#Eliminé a Fernando
 # Remover de lista
 profesores.remove('Roberto')
 print(profesores)
-
+vicedecana = profesores.pop(2)
+print(f"La vicedecana es {vicedecana.title()}.")
 #Se puede remover una variable que contenga algún valor!
 muybuenprofesor='Bruno'
 profesores.remove(muybuenprofesor)
 print(profesores)
 print(f"\n{muybuenprofesor.title()} es muy buen profesor.")
+
+#Ordenar por orden alfabético y viceversa
+profesores.append('Luis')
+profesores.sort()
+print(profesores)
+profesores.sort(reverse=True)
+print(profesores)
+
+#Se pueden ordenar temporalmente
+facultades=['ingeniería', 'medicina', 'economicas']
+print(facultades)
+print(sorted(facultades))
+print(facultades)
+# Invierte el orden insertado
+facultades.reverse()
+print(facultades)
+
+#Longitud
+print(len(facultades))
