@@ -133,3 +133,4 @@ print("\n --- Resultados de la Encuesta ---")
 
 for nombre, montaña in respuestas_encuesta.items():
       print(f"a {nombre} le gustaria escalar {montaña}")
+
