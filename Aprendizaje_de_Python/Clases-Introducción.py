@@ -161,4 +161,4 @@ cuenta_clara.tarjeta.aumentar_limite(100_000)
 cuenta_clara.tarjeta.describir_tarjeta()  
 
 # Si en otra clase se utiliza from Clases-Introducción.py import CuentaBancaria, CuentaAhorro
-#Pueden ser usadas en otros .py
+# Pueden ser usadas en otros .py
