@@ -114,7 +114,8 @@ modelo = crear_persona("Hernán", "Drago", altura = 193)
 print(modelo) # Imprime {'nombre': 'Hernan', 'apellido': 'Drago', 'altura': 193}
 
 actor = crear_persona("Federico", "D'Elía", 59, 180)
-print(actor) # Imprime {'nombre': 'Federico', 'apellido': "D'Elia", 'edad': 59, 'altura': 180}
+print(actor) # Imprime {'nombre': 'Federico', 'apellido': "D'Elia", 
+             #          'edad': 59, 'altura': 180}
 
 # Podemos ejecutar funciones dentro de un bucle
 
