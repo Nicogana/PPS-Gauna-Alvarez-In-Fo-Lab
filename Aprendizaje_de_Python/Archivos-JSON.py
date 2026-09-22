@@ -91,3 +91,5 @@ def saludar_al_usuario():
         print(f"Nunca te olvidaremos {usuario}")
 
 saludar_al_usuario()
+
+# Con esto hemos completado las lecciones de Python, el día martes 22/9/2026 a las 10:53 AM 
